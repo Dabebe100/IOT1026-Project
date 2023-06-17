@@ -8,7 +8,7 @@ namespace MinotaurLabyrinthTest
     {
         ///Method
         [TestMethod]
-        public void DummyTest()
+        public void PitRoomTest()
         {
             Assert.AreNotSame(1, 2);
         }
