@@ -58,7 +58,7 @@
 
         public void Activate(Hero hero, Map map)
         {
-            
+
         }
         /// <summary>
         /// Activates the room, triggering interactions with the hero.
