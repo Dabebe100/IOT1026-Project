@@ -1,4 +1,4 @@
-namespace MinotaurLabyrinth
+﻿namespace MinotaurLabyrinth
 {
     /// <summary>
     /// Represents a Slimy gel in the game.
