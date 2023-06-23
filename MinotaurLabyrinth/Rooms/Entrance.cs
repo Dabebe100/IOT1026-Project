@@ -8,7 +8,7 @@
         }
         public override RoomType Type { get; } = RoomType.Entrance;
         public override bool IsActive { get; protected set; } = true;
-        public override void Activate(Hero hero, Map map)
+        public override void Activates(Hero hero, Map map)
         {
             if (hero.HasSword)
                 hero.IsVictorious = true;

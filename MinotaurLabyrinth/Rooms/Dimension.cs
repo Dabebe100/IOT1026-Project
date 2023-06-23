@@ -19,7 +19,7 @@
         /// <summary>
         /// Activates the portal, making the user to  automatically lose consequences.
         ///</summary>
-        public override void Activate(Hero hero, Map map)
+        public override void Activates(Hero hero, Map map)
         {
             if (IsActive)
             {

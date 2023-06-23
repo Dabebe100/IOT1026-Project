@@ -19,7 +19,7 @@
         /// <summary>
         /// Activates the pit, causing the hero to potentially fall in and face consequences.
         /// </summary>
-        public override void Activate(Hero hero, Map map)
+        public override void Activates(Hero hero, Map map)
         {
             if (IsActive)
             {

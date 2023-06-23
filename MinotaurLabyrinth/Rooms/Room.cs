@@ -56,12 +56,16 @@
             return false;
         }
 
+        public void Activate(Hero hero, Map map)
+        {
+            
+        }
         /// <summary>
         /// Activates the room, triggering interactions with the hero.
         /// </summary>
         /// <param name="hero">The hero entering the room.</param>
         /// <param name="map">The current game map.</param>
-        public virtual void Activate(Hero hero, Map map)
+        public virtual void Activates(Hero hero, Map map)
         {
             _monster?.Activate(hero, map);
         }
@@ -77,5 +81,10 @@
             else
                 return new DisplayDetails("[ ]", ConsoleColor.Gray);
         }
+
+
     }
 }
+
+
+
